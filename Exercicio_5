@@ -1,0 +1,61 @@
+# Exercício 5
+
+# Declarando as variáveis
+lanchePreco = 10.90
+lancheQtd = 2
+refriPreco = 4.50
+refriQtd = 3
+batataPreco = 8.45
+batataQtd = 1
+contaTotal = lanchePreco*lancheQtd + refriPreco*refriQtd + batataPreco*batataQtd
+
+# Respondendo item 1:
+print('O valor total da conta foi de: R$',contaTotal)
+
+# Calculando item 2:
+nota10Qtd = contaTotal // 10
+valorFaltante = contaTotal - nota10Qtd*10
+
+print(nota10Qtd)
+print(valorFaltante)
+
+# Respondendo item 2:
+# Já que o valorFaltante é menor que 5 reais, então não preciso gastar outra nota de 10
+
+print('Usei', nota10Qtd,'notas de 10 reais')
+
+# Calculando item 3:
+nota5Qtd = valorFaltante // 5 + 1
+valorFaltante = valorFaltante - nota5Qtd * 5
+
+print(nota5Qtd)
+print(valorFaltante)
+
+# Respondendo item 3:
+# Já que o novo valorFaltante é menor do que 0 reias, então já paguei o que eu precisava. Não estou devendo
+
+print('Usei', nota5Qtd,'notas de 5 reais')
+
+# Calculando item 4:
+# Já que a única nota menor que 5 reais é a nota de 2 reais, temos que ver se ela é maior do que o Valor Faltante.
+
+nota2Qtd = (-valorFaltante) // 2
+valorFaltante = valorFaltante + nota2Qtd * 2
+
+print(nota2Qtd)
+print(valorFaltante)
+
+# Respondendo item 4:
+print('Recebi', nota2Qtd,'notas de 2 reais')
+
+# Calculando item 5:
+# Já que já recebemos tudo o que dava em notas, o que falta é somente as moedas
+
+moedaValor = 0 - valorFaltante
+valorFaltante = moedaValor + valorFaltante
+
+print(moedaValor)
+print(valorFaltante)
+
+# Repondendo item 5:
+print('Recebi', moedaValor,'em moedas')
