@@ -1,0 +1,11 @@
+# Exercício 3
+
+# Concatenação de 2 textos
+nomePrimeiro = 'Simone'
+nomeUltimo = 'Canto'
+nomeCompleto = nomePrimeiro + ' '+ nomeUltimo
+print(nomeCompleto)
+
+# Repetir a palavra 'Olá' 5 vezes
+print ('Olá ' * 5)
+
