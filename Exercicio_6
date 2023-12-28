@@ -1,0 +1,10 @@
+# Exercício 6
+
+N1 = 7
+N2 = 5
+print(N1 + N2)
+print(N1 - N2)
+print(N1 * N2)
+print(N1 / N2)
+print(N1 % N2)
+print( N1 ** N2)
