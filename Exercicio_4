@@ -1,0 +1,24 @@
+# Exercício 4
+
+# Declarando as variáveis:
+a = 5
+
+b = 7
+
+c = 3.45
+
+d = 5.50
+
+# Quanto é: a + b * d
+print(a + b * d)
+
+# Quanto é: (a + b) * d
+
+print((a + b) * d)
+
+# Quanto é: b ** a * c
+print(b ** a * c)
+
+# Quanto é: b ** (a * c)
+print(b ** (a * c))
+
