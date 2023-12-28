@@ -1,0 +1,5 @@
+# Exercício 8
+
+carro = int(input('Quantos km você rodou com seu carro?  '))
+litros = int(input('Quantos litros de conbustível foi gasto?  '))
+print('O seu carro faz: ', round(carro/litros, 2), 'km/l')
