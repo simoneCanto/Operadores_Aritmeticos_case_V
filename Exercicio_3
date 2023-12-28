@@ -1,0 +1,7 @@
+# Exercício 3
+
+# print com repetição
+print('_'*110)
+print()
+print(' '*35,'Seja Bem Vindo ao Curso de Python da DNC')
+print('_'*110)
